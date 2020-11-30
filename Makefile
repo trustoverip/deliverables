@@ -34,11 +34,11 @@
 # Variables
 # -----------------------------------------------------------------------------
 
-REPO_NAME ?= mkdocs-material
-UPSTREAM_REPO ?= https://github.com/trustoverip/mkdocs-material.git
+REPO_NAME ?= toip-deliverables-portal
+UPSTREAM_REPO ?= https://github.com/trustoverip/deliverables.git
 DEV_IMAGE ?= trustoverip/mkdocs-material-devenv
 PANDOCS_IMAGE ?= trustoverip/pandocs-devenv
-DEV_SITE_PORT ?= 7500
+DEV_SITE_PORT ?= 7600
 DEV_HOST_DIR ?= host_mkdocs
 PUB_HOST_DIR ?= host_pandocs
 PUBLISH_DIR ?= publish
@@ -61,13 +61,13 @@ clean:
 
 # Prepare Git environment
 prepare_git:
-	git remote remove upstream; git remote add upstream $(UPSTREAM_REPO); git remote
+	git remote remove upstream; git remote add upstream $(UPSTREAM_REPO); git remote -v
 
 # Build all required Docker images
 build_images: ./docker/mkdocs/Dockerfile ./docker/pandocs/Dockerfile
 	docker build -t $(DEV_IMAGE) - < ./docker/mkdocs/Dockerfile
 	docker build -t $(PANDOCS_IMAGE) - < ./docker/pandocs/Dockerfile
-	docker images | head -3
+	docker images | grep -h "trustoverip"
 
 # Publication directory
 prepare_pandocs:

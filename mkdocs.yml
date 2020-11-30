@@ -11,16 +11,17 @@
 # LIMITATIONS UNDER THE LICENSE.
 
 # Project information
-site_name: Trust over IP – General Template
-site_url: https://trustoverip.github.io/mkdocs-material/
+site_name: ToIP Deliverables
+site_url: https://trustoverip.github.io/deliverables/
 site_author: Trust over IP Foundation
 site_description: >-
-  Trust over IP Foundation template for general documentation
-  and technical specification using Material for MkDocs
+  The ToIP Deliverables Portal provides the content resources
+  for the generation of documentation associated with the
+  contribution process and state of our ToIP Deliverables.
 
 # Repository information
-repo_name: trustoverip/mkdocs-material
-repo_url: https://github.com/trustoverip/mkdocs-material
+repo_name: trustoverip/deliverables
+repo_url: https://github.com/trustoverip/deliverables
 
 # Content Generator Settings
 docs_dir: 'docs'
@@ -34,9 +35,34 @@ copyright: >-
   Projects, LLC is an affiliate of the Linux Foundation.
 
 # Navigation structure
-# nav:
-#  - Page 1: page-1.md
-#  - Page 2: page-2.md
+nav:
+- Introduction:
+    - 'Overview': 'index.md'
+    - 'Deliverables': './process/work_products.md'
+    - 'Resource Management': './process/work_product_mgmt.md'
+    - 'Lifecycle Management ': './process/lifecycle_management.md'
+- How we work:
+    - 'Process Concepts': './process/process_concepts.md'
+    - 'Content Templates': './process/content_templates.md'
+    - Contribution Options:
+        - 'Inline Document': './process/contributing_pr.md'
+        - 'Single Document Generation': './process/contributing_basic_doc.md'
+        - 'Rich Content Generation': './process/contributing_multi_docs.md'
+        - 'Rich Specification Generation': './process/contributing_multi_specs.md'
+    - 'Issue Management': './process/github-issues.md'
+    - 'Change Management': './process/github-pullrequests.md'
+    - 'State Management': './process/state_mgmt.md'
+    - 'Search Optimization': './process/tags.md'
+    - 'Code of Conduct': './process/code_of_conduct.md'
+- Activity Status:
+    - 'Proposed': './results/proposed.md'
+    - 'Approved': './results/approved.md'
+    - 'Accepted': './results/accepted.md'
+    - 'Standard Development Organizations': './results/sdo.md'
+    - 'Adoption': './lists/adoption.md'
+- Help:
+    - 'FAQ': 'faq.md'
+    - 'Contact us': 'contact_us.md'
 
 # Theme configuration
 theme:
@@ -54,9 +80,6 @@ theme:
 # Plugin configuration
 plugins:
   - search
-  - pdf-export:
-      enabled_if_env: ENABLE_PDF_EXPORT
-      combined: true
 
 # Extensions configuration
 markdown_extensions:
@@ -101,7 +124,7 @@ markdown_extensions:
 
 # Additional content
 extra:
-  title: 'XX0000: Doc/Spec Name'
+  title: 'ToIP Deliverables Portal'
   lf_url: https://www.linuxfoundation.org/projects
   toip_url: https://trustoverip.org/
   social:

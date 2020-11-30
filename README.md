@@ -1,127 +1,88 @@
-#  Trust over IP - Documentation and Specification Template
-This repo is a [GitHub Repo Template][1] for creating GitHub repositories within the ToIP GitHub Organization. Newly generated repos will contain all the necessary code for using MkDocs for the development of [ToIP Deliverables][2].
+# ToIP Deliverables
 
-The **ToIP MkDocs Material Theme** a ready-to-use setup for a ToIP branded version of [MkDocs][3], a static site generator geared towards (technical) project documentation and specification development. The theme is a customized version of [Material for MkDocs][4].
+Under our Linux Foundation Joint Development Foundation (JDF) charter, each ToIP Foundation Working Group (WG) can produce a variety of [deliverable types](./content/process/work_products.md). This repo covers the [lifecycle management process](./content/process/lifecycle_management.md) for the work products ("deliverables") of the ToIP Foundation.
+
+Figure 1: The five (5) primary types of ToIP Foundation deliverables
+
+![deliverables](./_images/process/toip-deliverables.png)
+
+Table 1 summarizes the primary differences between these five types:
+
+| Deliverable Type | Designed to be:|
+| --- | --- |
+| Specification | Implemented (in code)|
+| Glossary | Incorporated (in other documents) |
+| Recommendation | Followed (in practice) |
+| Guides | Executed (in operation) |
+| White Paper | Understood (to support decisions) |
+
+Table 1: The primary differences between the six types of deliverables
 
 ## Purpose
-This repo has been developed to address the [requirements](./REQUIREMENTS.md) of [ToIP Foundation][5] contributors with respect to the [authoring process][6] for [ToIP Deliverables][2].
+This repository serves several purposes:
 
-## Developer's Guide
-Once the new repo instance has been configured, Documentation and Specification contributors should familiarize themselves with the [Developer's Guide](./DEV_README.md).
+1. Document and maintain the process information for contributing to the ToIP Foundation.
+2. Storage and version control for a subset of the Foundation's deliverables.
+3. Publication process for our [Deliverables Portal](https://trustoverip.github.io/deliverables), an interactive GitHub Pages website.
+4. Manages a list of [industry adoption activity](./lists/adoption.md).
 
-## Usage
-The following instructions pertain to the initial configuration of a new repository instance that has been primed using [trustoverip/mkdocs-material GitHub Repo Template][12].
+## Contributor's Guide
+Contributors of content for the ToIP Deliverables Portal  should familiarize themselves with the [Authoring Process](./DEV_README.md).
 
-### Prime and clone a new repository
-1. Generate a new repository from this template repository (see [GitHub docs][7]).
-2. Clone the new repository (see [GitHub docs][8]).
+## Related Resources
 
-### Pick a theme style
-This repo supports the use of a *Specification* styled theme when the [ToIP Deliverable Type Indicator][9] is `TSS`. In all other cases, a *General Documentation* styled theme is provided.
+1. [ToIP Deliverables Portal - Status](https://trustoverip.github.io/deliverables/results/proposed/)
+2. [ToIP Contributor's Workflow](https://trustoverip.github.io/deliverables/process/process_concepts/)
 
-1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][10], [Atom][11]).
-2. Apply your style selection
+### Management of Deliverables
 
-| Style | Configuration Action |
-| --- | --- |
-| _General Documentation_ | Move the `mkdocs.spec.yml` file, which is located at the root of the repo, to the `archive` folder. |
-| _Specification_ | Move the `mkdocs.yml` file to the `archive` folder, and rename `mkdocs.spec.yml` to `mkdocs.yml`. |
+#### Publication Categories
+Each deliverable produced by the ToIP Foundation may be rendered for publication in a variety of formats. There are two categories:
 
-### Configure MkDocs
+| Publication Category | Description | Format Options |
+| --- | --- | --- |
+| Basic | A work-product delivered in only one format. | Markdown |
+| Multi-Modal | A work-product delivered in multiple formats. | Markdown, PDF, HTML|
 
-[MkDocs][3] uses a [YAML file][13] to configure the operational properties for the document generator.
+>Note: Regardless of publication category, the authoring process may leverage more than one Markdown file to produce the final work-product.
 
-1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][10], [Atom][11]).
-2. Edit the `mkdocs.yml` file and find the sections depicted below:
+#### Publication Access
+This repo serves as the storage repository for work-products within the **Basic** publication category. These work-products can be found in the ```recommendations``` folder.
 
-    ```
-    # Project information
-    site_name: Trust over IP – General Template
-    site_url: https://trustoverip.github.io/mkdocs-material/
-    site_author: Jane Doe
-    site_description: >-
-      Trust over IP Foundation template for general documentation
-      and technical specification using Material for MkDocs
+Each work-product within the **Multi-Modal** publication category will have a dedicated repository within the [ToIP Github Organization](https://github.com/trustoverip/) with unique publication process details.
 
-    # Repository information
-    repo_name: trustoverip/mkdocs-material
-    repo_url: https://github.com/trustoverip/mkdocs-material
+### Portal Development  
+This repo contains the content resources for the generation of documentation associated with the contribution process and state of our deliverables. It contains the tools necessary to generate this documentation in two rendering formats (printed, online). Please refer to our [Portal Build Process](./content/process/build_processs.md) for more details.
 
-    # Content Generator Settings
-    docs_dir: 'content'
-    site_dir: 'html'
-    ```
+## Getting Started with the ToIP Foundation
+The ToIP Foundation maintains a variety of active and inactive activities that adhere to a specific process for the maturation and publication of deliverables that are relevant to:
 
-3. Update the following settings:
+* Work within the same working group
+* Work within another working group
+* Work within another community or [SDO](https://en.wikipedia.org/wiki/Standards_organization#Standards_developing_organizations_(SDOs))
 
-    1. `site_name`: Set to ToIP Deliverables name using the naming convention `<TypeIndicator><4digitID>: <DeliverableName>`. For example,  _BP000: Utility Selection Criteria_.
+There are several ways in which you can get acquainted with our work.
 
-    2. `site_url`: Set to the GitHub Pages URL that will serve up this new repo site.
+### Learn
+If you are here to explore the work products of the ToIP Foundation, we recommend you refer to the *Deliverables Results* section of our [Deliverables Portal](https://trustoverip.github.io/deliverables/results/proposed/) as it provides a current listing of all work product efforts and their statuses.
 
-    3. `site_author`: Set to the sponsoring ToIP WG. For example, _ToIP Governance Stack WG_.
+### Contribute
+If you have an idea for a new instance of one of our types of deliverables, please consider making a contribution:
 
-    4. `site_description`: Set to a short description of the ToIP Deliverable being documented by this repo.
+* [Contribute a Specification](./content/process/contributing_specs.md)
+* [Contribute a Other Work-Products](./content/process/contributing_other.md)
 
-    5. `repo_name`: Set using name of the new GitHub repo.
+### Consume
+The goal of the ToIP Foundation is to help define a complete architecture for Internet-scale digital trust that combines both cryptographic trust at the machine layer and human trust at the business, legal, and social layers. Our work products with be positioned at various levels of such an architecture and will mature at disparate rates. Please familiar yourself with the [lifecycle management process](./content/process/lifecycle_management.md) for our deliverables and then when/where appropriate we welcome your feedback on how you plan or have consumed our work. Please keep us informed of your activities by submitted a `pull-request` against our [adoption matrix](./lists/adoption.md).
 
-    6. `repo_url`: Set using the URL of the new GitHub repo.
+## About
 
-    7. `docs_dir`: Enter the preferred directory name for where the content for this document/spec will reside.
+#### License
 
-    8. `site_dir`: Enter the preferred directory name for where the static HTML pages will be generated from Markdown files.
+This repository is licensed under an [Apache 2 License](LICENSE). It is protected by a [Developer Certificate of Origin](https://developercertificate.org/) on every commit. This means that any contributions you make must be licensed in an Apache-2-compatible
+way, and must be free from patent encumbrances or additional terms and conditions. By raising a PR, you certify that this is the case for your contribution.
 
-    9. `extra.title`: Set to ToIP Deliverables name using the naming convention `<TypeIndicator><4digitID>: <DeliverableName>`. For example,  _BP000: Utility Selection Criteria_.
+#### Acknowledgement
 
-### Configure Makefile
-
-1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][10], [Atom][11]).
-2. Edit the `Makefile` file and find the variables depicted below:
-
-    ```
-    REPO_NAME ?= mkdocs-material
-    UPSTREAM_REPO ?= https://github.com/trustoverip/mkdocs-material.git
-    DEV_IMAGE ?= trustoverip/mkdocs-material-devenv
-    PANDOCS_IMAGE ?= trustoverip/pandocs-devenv
-    DEV_SITE_PORT ?= 7500
-    DEV_HOST_DIR ?= host_mkdocs
-    PUB_HOST_DIR ?= host_pandocs
-    PUBLISH_DIR ?= publish
-    ```
-
-3. Update the following settings:
-
-    1. `REPO_NAME`: Provide the GitHub repository name.
-    2. `UPSTREAM_REPO`: Set using the GitHub Repo Clone URL.
-    3. `DEV_SITE_PORT`: Pick a port that will be used for the local test server: _https://localhost:8080_
-
-### Update Readme
-1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][10], [Atom][11]).
-2. Based on the type of deliverable that will be associated with this new repo, copy the appropriate `template` from the [templates folder within the trustoverip/deliverables repo][15] to `./archive/SUGGESTED_OUTLINE.md`.
-3. Move `README.md` to the `archive` folder. Rename it to `ORIGINAL_INSTRUCTIONS.md`.
-4. Rename `DOC_README.md` to `README.md`
-5. Update `README.md` accordingly.
-
-    1. At the top of your file modify the _title_ so it is in the form:
-
-        ```
-        <TypeIndicator><4digitID>: Friendly Version of Your Title.
-        ```
-
-    2. Refer to the _Contribution Options_ of the [ToIP Deliverables Portal][14].
-
-
-[1]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-template-repository
-[2]: https://github.com/trustoverip/deliverables/blob/master/_process/work_products.md
-[3]: https://www.mkdocs.org/
-[4]: https://squidfunk.github.io/mkdocs-material/
-[5]: https://trustoverip.org
-[6]: https://trustoverip.github.io/deliverables/process/process_concepts/
-[7]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
-[8]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
-[9]: https://trustoverip.github.io/deliverables/process/work_product_mgmt/#type-indicators
-[10]: https://code.visualstudio.com/
-[11]: https://atom.io
-[12]: https://github.com/trustoverip/mkdocs-material
-[13]: https://en.wikipedia.org/wiki/YAML#:~:text=yaml.org,is%20being%20stored%20or%20transmitted.
-[14]: https://trustoverip.github.io/deliverables/
-[15]: https://github.com/trustoverip/deliverables/tree/master/templates
+This repo was derived from the [ToIP Material for MkDocs Repo](https://github.com/trustoverip/mkdocs-material). It was inspired by the structure and successful experience of the [Hyperledger/Aries-RFC Repository](https://github.com/hyperledger/aries-rfcs), which was in part based on [Indy HIPEs](
+https://github.com/hyperledger/indy-hipe), which borrowed it from [Rust RFC](https://github.com/rust-lang/rfcs).
