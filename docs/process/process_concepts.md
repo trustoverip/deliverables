@@ -42,3 +42,10 @@ The publishing process must enable each deliverable stored in Github to be publi
 ![vision](../_images/process/process-vision.png)
 
 The selection of the Markdown Language allows members freedom of choice when authoring content.  Markdown files can be pre-processed using **existing open-source tools** to minimize costs and dependencies. [MkDocs](https://www.mkdocs.org/) and [Spec-Up](https://identity.foundation/spec-up/) are flexible publishing platforms that leverage the Markdown language and can easily be themed to provide flexibility and consistency.
+
+| Authoring Environment | Usage | View Demo(s) |
+| --- | --- | --- |
+| [ToIP MkDocs Material Theme](https://github.com/trustoverip/mkdocs-material) | General Documentation and Specification development | [ToIP MkDocs Theme for Documentation](https://trustoverip.github.io/deliverables/), [ToIP MkDocs Theme for Specs](https://squidfunk.github.io/toip-demo-spec/) |
+| [Spec-Up for ToIP](https://github.com/decentralized-identity/spec-up) | Specification development | _Work-in-progress_ |
+
+* <font color="red">Note: Pending the completion of [Spec-Up Issue 11](https://github.com/decentralized-identity/spec-up/issues/11), this option is unavailable for use.</font>
