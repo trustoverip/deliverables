@@ -11,7 +11,7 @@ Templates enable the ToIP community to quickly leverage lessons learned by other
 
 ![template-usage](../_images/process/template-usage.png)
 
-Figure 1 provides a simplified view of the more detailed [UML Class Diagram](../_images/process/class_diagram.png)](github diagram link) that depicts the relationship of Templates to ToIP Deliverables.
+Figure 1 provides a simplified view of the more detailed [UML Class Diagram](../_images/process/class_diagram.png) that depicts the relationship of Templates to ToIP Deliverables.
 
 Templates are managed in the ```templates``` folder of the [deliverables repo](https://github.com/trustoverip/deliverables).
 

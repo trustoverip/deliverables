@@ -9,10 +9,12 @@ These contribution instructions SHOULD be used when the following are all *true*
 
 3. The contributors have decided to leverage one of two of the ToIP themed Specification Authoring Environments:
 
-    * [ToIP MkDocs Material Theme](https://github.com/trustoverip/mkdocs-material)
-    * [Spec-Up for ToIP](https://github.com/decentralized-identity/spec-up)
+    | Authoring Environment | Usage | View Demo(s) | 
+    | --- | --- | --- |
+    | [ToIP MkDocs Material Theme](https://github.com/trustoverip/mkdocs-material) | General Documentation and Specification development | [ToIP MkDocs Theme for Documentation](https://trustoverip.github.io/deliverables/), [ToIP MkDocs Theme for Specs](https://squidfunk.github.io/toip-demo-spec/) |
+    | [Spec-Up for ToIP](https://github.com/decentralized-identity/spec-up) | Specification development | _Work-in-progress_ |
 
-        * <font color="red">Note: Pending the completion of [Spec-Up Issue 11](https://github.com/decentralized-identity/spec-up/issues/11), this option is unavailable for use.</font>
+    * <font color="red">Note: Pending the completion of [Spec-Up Issue 11](https://github.com/decentralized-identity/spec-up/issues/11), this option is unavailable for use.</font>
 
 ## ToIP MkDocs Material Theme approach
 Follow the [Rich Content Generation](./contributing_multi_docs.md) instructions with one exception:

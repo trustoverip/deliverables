@@ -124,7 +124,7 @@ markdown_extensions:
 
 # Additional content
 extra:
-  title: 'ToIP Deliverables Portal'
+  title: 'Deliverables Portal'
   lf_url: https://www.linuxfoundation.org/projects
   toip_url: https://trustoverip.org/
   social:
