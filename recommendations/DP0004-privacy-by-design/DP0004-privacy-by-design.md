@@ -1,6 +1,6 @@
 # ToIP DP0004: Privacy by Design
 - Authors: [Jim St.Clair](jum.stclair@lumedic.io)
-- Status: [PROPOSED]()
+- Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
 - Since: 2020-11-29
 - Status Note: Draft
 - Supersedes: N/A

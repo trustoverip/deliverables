@@ -20,11 +20,11 @@
 
 | Name | Description | WG | Links |
 | --- | --- | --- | --- |
-| [DP0003: Laws of Identity](github_repo_url) | Laws of Identity | TSWG | [<img src="https://trustoverip.github.io/deliverables/_images/results/markdown.png" alt="md" width="35" height="35">](someurl) |
-| [DP0004: Privacy by Design](github_repo_url) | Privacy by Design | TSWG | [<img src="https://trustoverip.github.io/deliverables/_images/results/markdown.png" alt="md" width="35" height="35">](someurl) |
+| [DP0003: Laws of Identity](https://github.com/trustoverip/deliverables/blob/main/recommendations/DP0003-laws-of-identity/) | Laws of Identity | TSWG | [<img src="https://trustoverip.github.io/deliverables/_images/results/markdown.png" alt="md" width="35" height="35">](https://github.com/trustoverip/deliverables/blob/main/recommendations/DP0003-laws-of-identity/DP0003-laws-of-identity.md) |
+| [DP0004: Privacy by Design](https://github.com/trustoverip/deliverables/tree/main/recommendations/DP0004-privacy-by-design) | Privacy by Design | TSWG | [<img src="https://trustoverip.github.io/deliverables/_images/results/markdown.png" alt="md" width="35" height="35">](https://github.com/trustoverip/deliverables/tree/main/recommendations/DP0004-privacy-by-design/DP0004-privacy-by-design.md) |
 | [DP0005: Decentralization by Design](github_repo_url) | Decentralization by Design | TSWG | [<img src="https://trustoverip.github.io/deliverables/_images/results/markdown.png" alt="md" width="35" height="35">](someurl) |
 | [DP0006: Technology Stack](github_repo_url) | Technology Stack Design Principles | TSWG | [<img src="https://trustoverip.github.io/deliverables/_images/results/markdown.png" alt="md" width="35" height="35">](someurl) |
-| [DP0007: Goverance Stack](github_repo_url) | Goverance Stack Design Principles | GSWG | [<img src="https://trustoverip.github.io/deliverables/_images/results/markdown.png" alt="md" width="35" height="35">](someurl) |
+| [DP0007: Goverance Stack](https://github.com/trustoverip/deliverables/tree/main/recommendations/DP0007-governance-stack) | Goverance Stack Design Principles | GSWG | [<img src="https://trustoverip.github.io/deliverables/_images/results/markdown.png" alt="md" width="35" height="35">](https://github.com/trustoverip/deliverables/tree/main/recommendations/DP0007-governance-stack/DP0007-governance-stack.md) |
 | [BP0011: Determining Utility Affordability](github_repo_url) | Determining Utility Affordability | UFWG | [<img src="https://trustoverip.github.io/deliverables/_images/results/markdown.png" alt="md" width="35" height="35">](someurl) |
 
 ## Guides
