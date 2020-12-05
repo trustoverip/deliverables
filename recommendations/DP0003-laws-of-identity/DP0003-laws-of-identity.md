@@ -1,7 +1,7 @@
 # DP0003: Laws of Identity
 - Authors: [Darrell O'Donnell](darrell.odonnell@continuumloop.com), [Victor Syntez](victorsyntez@gmail.com)
 - Deliverable Type: *Recommendation - Design Principle*
-- Status: [PROPOSED](./process/lifecycle_management.md)
+- Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
 - Since: 2020-10-21
 - Status Note: Draft
 - Supersedes: N/A
