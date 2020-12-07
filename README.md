@@ -4,7 +4,7 @@ Under our Linux Foundation Joint Development Foundation (JDF) charter, each ToIP
 
 Figure 1: The five (5) primary types of ToIP Foundation deliverables
 
-![deliverables](./_images/process/toip-deliverables.png)
+![deliverables](https://github.com/trustoverip/deliverables/blob/main/docs/_images/process/toip-deliverables.png)
 
 Table 1 summarizes the primary differences between these five types:
 
