@@ -2,7 +2,7 @@
 
 - Authors: [Drummond Reed](drummond.reed@evernym.com), [Victor Syntez](victorsyntez@gmail.com)
 - Deliverable Type: *Recommendation - Design Principle*
-Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
+- Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
 - Since: 2020-11-04
 - Status Note: Draft
 - Supersedes: N/A
