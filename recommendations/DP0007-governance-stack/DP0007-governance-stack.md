@@ -42,7 +42,7 @@ In many standards track documents words MUST, SHOULD, and MAY are used to signif
 
 The ToIP stack does not define specific governance frameworks. Rather it is a metamodel for how to design and implement digital governance frameworks that can be universally referenced, understood, and consumed in order to facilitate transitive trust online. The ToIP governance stack is designed to be compatible with—and an implementation vehicle for—national governance frameworks as well as for regional and local governance frameworks of all kinds.
 
-![Trust Over IP Governance Stack](/recommendations/DP0007-governance-stack/images/TOIP Governance Stack diagram.png)
+![Trust Over IP Governance Stack](/recommendations/DP0007-governance-stack/images/TOIP_Governance_Stack_diagram.png)
 
 **TL4:** **Ecosystem Governance Frameworks**. Layer Four is where humans will directly experience the ToIP Governance Stack—specifically the trust marks and policy promises of ecosystem governance frameworks. These specify the purpose, principles, and policies that apply to all governance authorities and governance frameworks operating within that ecosystem—at all four levels of the ToIP stack. Any group of issuers who want to standardise, strengthen, and scale the credentials they offer can join together under the auspices of a sponsoring authority to craft a governance framework. No matter the form of the organisation —government, consortia, association, cooperative—the purpose is the same: define the business, legal, and technical rules under which the members agree to operate in order to achieve trust.
 
