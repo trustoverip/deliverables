@@ -36,13 +36,13 @@ In many standards track documents words MUST, SHOULD, and MAY are used to signif
 - **Credential Verification** is the evaluation of whether a Verifiable Credential or Verifiable Presentation authentically and accurately represents the Issuer or Presenter. This includes verification that the proof is satisfied (normally via cryptographic validation), confirmation the Credential or Presentation is valid (e.g., is not suspended, revoked, or expired), and that the Credential or Presentation conforms to relevant specifications and/or standards. (from [PCTF Credential](https://diacc.ca/wp-content/uploads/2020/09/PCTF-Credentials-Relationships-Attributes-Component-Overview-Final-Recommendation-V1.0-1.pdf))
 
 - **Governance Framework** - The set of business, legal, and technical definitions, policies, specifications, and contracts by which the members of a Trust Community agree to be governed in order to achieve their desired Levels of Assurance. Typically divided into a Master Document and a set of Controlled Documents. A Governance Framework is itself governed by a Governance Authority. A Governance Framework is also known as a Trust Framework. (from Sovrin [glossary](https://github.com/trustoverip/concepts-and-terminology-wg/blob/master/submissions/sovrin/Governance_Framework.md))
-  ![Governance Framework Structure](https://github.com/VictorSyntez/deliverables-1/blob/main/recommendations/DP0007-governance-stack/images/Governance-framework-model.png)
+  ![Governance Framework Structure](/recommendations/DP0007-governance-stack/images/Governance-framework-model.png)
 
 ## Trust over IP Stack Governance Frameworks description
 
 The ToIP stack does not define specific governance frameworks. Rather it is a metamodel for how to design and implement digital governance frameworks that can be universally referenced, understood, and consumed in order to facilitate transitive trust online. The ToIP governance stack is designed to be compatible with—and an implementation vehicle for—national governance frameworks as well as for regional and local governance frameworks of all kinds.
 
-![Trust Over IP Governance Stack](/recommendations/DP0007-governance-stack/images/Governance-framework-model.png)
+![Trust Over IP Governance Stack](/recommendations/DP0007-governance-stack/images/TOIP Governance Stack diagram.png)
 
 **TL4:** **Ecosystem Governance Frameworks**. Layer Four is where humans will directly experience the ToIP Governance Stack—specifically the trust marks and policy promises of ecosystem governance frameworks. These specify the purpose, principles, and policies that apply to all governance authorities and governance frameworks operating within that ecosystem—at all four levels of the ToIP stack. Any group of issuers who want to standardise, strengthen, and scale the credentials they offer can join together under the auspices of a sponsoring authority to craft a governance framework. No matter the form of the organisation —government, consortia, association, cooperative—the purpose is the same: define the business, legal, and technical rules under which the members agree to operate in order to achieve trust.
 
@@ -164,6 +164,6 @@ We consider that there is a need in documents highlighting not only the very pri
 
 ## Trade-offs
 
-While we will discuss how important is to seek an emotional feedback from such a document I would like us to look in two images. First one is government building in France designed by famous architect Zaha Hadid. ![Pierres Vives building in Montpellier](../images/Zaha_Hadid_arch2.png)
+While we will discuss how important is to seek an emotional feedback from such a document I would like us to look in two images. First one is government building in France designed by famous architect Zaha Hadid. ![Pierres Vives building in Montpellier](/recommendations/DP0007-governance-stack/images/Zaha_Hadid_arch2.png)
 
-Second one is government building in beautiful Victoria BC. ![Federal government building in Victoria BC](../images/Zaha_Hadid_arch3.png)
+Second one is government building in beautiful Victoria BC. ![Federal government building in Victoria BC](/recommendations/DP0007-governance-stack/images/Zaha_Hadid_arch3.png)
