@@ -1,22 +1,17 @@
----
-tags: TOIP, TOIP layers, Governance Frameworks, design principles
----
-# Governance Stack Design Principles
+# ToIP DP0007: Governance Stack
 
-- Authors: Drummond Reed, [Victor Syntez](victorsyntez@gmail.com)
+- Authors: [Drummond Reed](drummond.reed@evernym.com), [Victor Syntez](victorsyntez@gmail.com)
 - Deliverable Type: *Recommendation - Design Principle*
-- Status: [PROPOSED](/README.md#proposed)
+Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
 - Since: 2020-11-04
 - Status Note: Draft
 - Supersedes: N/A
 - Start Date: 2020-11-04
-- Tags: (see ../../../tags.md)
-
-[toc]
+- Tags: #recommendation, #gswg
 
 ## Summary
 
-This document is a template for TOIP Governance Stack Design Principles that might be used throughout all or any of the Trust Over IP Layers. It is based on several works:
+This document provides a set of TOIP Governance Stack Design Principles that might be used throughout all or any of the Trust Over IP Layers. It is based on several works:
 
 1. Laws of Identity by [Kim Cameron](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf)
 2. Presidio Principles by [WEF](http://www3.weforum.org/docs/WEF_Presidio_Principles_2020.pdf)
@@ -26,7 +21,7 @@ This document is a template for TOIP Governance Stack Design Principles that mig
 
 ## Motivation
 
-We see our task for creating this document in outlining TOIP Governance Stack Design Principles. We are seeking to create methodology on how to DESIGN and IMPLEMENT governance frameworks. These principles are needed for creating governing documents that will enable business, legal and social trust between entities engaged in any activity related to digitally verified credentials. By defining these principles we hope to assist in creating governance documents for user-centric, secure, accountable, interoperable, transparent and accessible utilities, protocols, applications, and ecosystems around verified credentials. Our goal lies in proposing not only the content of governance frameworks but also the way, how this content is organised for the future reading and use by humans and/or machines. We would like to highlight that these Design Principles are recommendations on **HOW** to create governing documents and **WHAT** these governing documents will contain.
+We see our task for creating this document in outlining TOIP Governance Stack Design Principles. We are seeking to create methodology on how to DESIGN and IMPLEMENT governance frameworks. These principles are needed for creating governing documents that will enable business, legal and social trust between entities engaged in any activity related to digitally verified credentials. By defining these principles we hope to assist in creating governance documents for user-centric, secure, accountable, interoperable, transparent and accessible utilities, protocols, applications, and ecosystems around verified credentials. Our goal lies in proposing not only the content of governance frameworks but also the way, how this content is organized for the future reading and use by humans and/or machines. We would like to highlight that these Design Principles are recommendations on **HOW** to create governing documents and **WHAT** these governing documents will contain.
 
 ## Scope
 
@@ -41,6 +36,7 @@ In many standards track documents words MUST, SHOULD, and MAY are used to signif
 - **Credential Verification** is the evaluation of whether a Verifiable Credential or Verifiable Presentation authentically and accurately represents the Issuer or Presenter. This includes verification that the proof is satisfied (normally via cryptographic validation), confirmation the Credential or Presentation is valid (e.g., is not suspended, revoked, or expired), and that the Credential or Presentation conforms to relevant specifications and/or standards. (from [PCTF Credential](https://diacc.ca/wp-content/uploads/2020/09/PCTF-Credentials-Relationships-Attributes-Component-Overview-Final-Recommendation-V1.0-1.pdf))
 
 - **Governance Framework** - The set of business, legal, and technical definitions, policies, specifications, and contracts by which the members of a Trust Community agree to be governed in order to achieve their desired Levels of Assurance. Typically divided into a Master Document and a set of Controlled Documents. A Governance Framework is itself governed by a Governance Authority. A Governance Framework is also known as a Trust Framework. (from Sovrin [glossary](https://github.com/trustoverip/concepts-and-terminology-wg/blob/master/submissions/sovrin/Governance_Framework.md))
+
   ![Governance Framework Structure](https://i.imgur.com/rNkoXej.png)
 
 ## Trust over IP Stack Governance Frameworks description
