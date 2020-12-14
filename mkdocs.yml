@@ -44,6 +44,7 @@ nav:
 - How we work:
     - 'Process Concepts': './process/process_concepts.md'
     - 'Content Templates': './process/content_templates.md'
+    - 'Basic Tools': './process/basic_tools.md'
     - Contribution Options:
         - 'Inline Document': './process/contributing_pr.md'
         - 'Single Document Generation': './process/contributing_basic_doc.md'
