@@ -40,8 +40,8 @@ nav:
     - 'Overview': 'index.md'
     - 'Deliverables': './process/work_products.md'
     - 'Resource Management': './process/work_product_mgmt.md'
-    - 'Lifecycle Management': './process/lifecycle_management.md'
-    - How we work:
+    - 'Lifecycle Management ': './process/lifecycle_management.md'
+- How we work:
     - 'Process Concepts': './process/process_concepts.md'
     - 'Content Templates': './process/content_templates.md'
     - 'Basic Tools': './process/basic_tools.md'
