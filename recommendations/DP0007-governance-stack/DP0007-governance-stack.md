@@ -164,6 +164,6 @@ We consider that there is a need in documents highlighting not only the very pri
 
 ## Trade-offs
 
-While we will discuss how important is to seek an emotional feedback from such a document I would like us to look in two images. First one is government building in France designed by famous architect Zaha Hadid. ![Pierres Vives building in Montpellier](/recommendations/DP0007-governance-stack/images/Zaha_Hadid_arch2.png)
+While we will discuss how important is to seek an emotional feedback from such a document I would like us to look in two images. On the left is a government building in France designed by famous architect Zaha Hadid. On the right is a government building in beautiful Victoria BC.   
 
-Second one is government building in beautiful Victoria BC. ![Federal government building in Victoria BC](/recommendations/DP0007-governance-stack/images/Zaha_Hadid_arch3.png)
+![Pierres Vives building in Montpellier](/home/victorgolubkov/Documents/Trust over IP/Wiki templates and files/Zara_Hadid_arch2_small.png) and ![Federal government building in Victoria BC](/home/victorgolubkov/Documents/Trust over IP/Wiki templates and files/Zaha_Hadid_arch3_small.png)
