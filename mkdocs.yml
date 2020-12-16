@@ -41,8 +41,7 @@ nav:
     - 'Deliverables': './process/work_products.md'
     - 'Resource Management': './process/work_product_mgmt.md'
     - 'Lifecycle Management': './process/lifecycle_management.md'
-    - 'Governance Stack Design Principles': './results/DP0007-governance-stack.md'
-- How we work:
+    - How we work:
     - 'Process Concepts': './process/process_concepts.md'
     - 'Content Templates': './process/content_templates.md'
     - 'Basic Tools': './process/basic_tools.md'
@@ -58,6 +57,7 @@ nav:
     - 'Code of Conduct': './process/code_of_conduct.md'
 - Activity Status:
     - 'Proposed': './results/proposed.md'
+    - 'Governance Stack Design Principles': './results/DP0007-governance-stack.md'
     - 'Approved': './results/approved.md'
     - 'Accepted': './results/accepted.md'
     - 'Standard Development Organizations': './results/sdo.md'
