@@ -40,7 +40,8 @@ nav:
     - 'Overview': 'index.md'
     - 'Deliverables': './process/work_products.md'
     - 'Resource Management': './process/work_product_mgmt.md'
-    - 'Lifecycle Management ': './process/lifecycle_management.md'
+    - 'Lifecycle Management': './process/lifecycle_management.md'
+    - 'Governance Stack Design Principles': './results/DP0007-governance-stack.md'
 - How we work:
     - 'Process Concepts': './process/process_concepts.md'
     - 'Content Templates': './process/content_templates.md'
