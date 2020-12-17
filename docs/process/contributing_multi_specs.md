@@ -9,12 +9,10 @@ These contribution instructions SHOULD be used when the following are all *true*
 
 3. The contributors have decided to leverage one of two of the ToIP themed Specification Authoring Environments:
 
-    | Authoring Environment | Usage | View Demo(s) | 
+    | Authoring Environment | Usage | View Demo(s) |
     | --- | --- | --- |
     | [ToIP MkDocs Material Theme](https://github.com/trustoverip/mkdocs-material) | General Documentation and Specification development | [ToIP MkDocs Theme for Documentation](https://trustoverip.github.io/deliverables/), [ToIP MkDocs Theme for Specs](https://squidfunk.github.io/toip-demo-spec/) |
-    | [Spec-Up for ToIP](https://github.com/decentralized-identity/spec-up) | Specification development | _Work-in-progress_ |
-
-    * <font color="red">Note: Pending the completion of [Spec-Up Issue 11](https://github.com/decentralized-identity/spec-up/issues/11), this option is unavailable for use.</font>
+    | [Spec-Up for ToIP](https://github.com/trustoverip/spec-up) which is derived from [Spec-Up](https://github.com/decentralized-identity/spec-up) | Specification development | [ToIP Spec-up Repo](https://trustoverip.github.io/spec-up), [Baseline Spec-up Demo](https://identity.foundation/spec-up/)|
 
 ## ToIP MkDocs Material Theme approach
 Follow the [Rich Content Generation](./contributing_multi_docs.md) instructions with one exception:
@@ -70,9 +68,10 @@ The contributors need to gather some specifics before getting started:
 
 #### Create Dedicated Repository
 
-The ToIP Foundation provides a [GitHub Template Repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-template-repository) to allow contributors to quickly and easily configure a new dedicated deliverables repository. The [Spec-Up for ToIP](https://github.com/decentralized-identity/spec-up) Template Repository allows ToIP contributors to create new repositories with the directory structure, branches, and files necessary to bootstrap the development of a [Multi-Modal Publication](./work_product_mgmt.md#publication-categories) using a ToIP branded version of [MkDocs](https://www.mkdocs.org/).
+The ToIP Foundation provides a [GitHub Template Repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-template-repository) to allow contributors to quickly and easily configure a new dedicated deliverables repository. The [Spec-Up for ToIP](https://github.com/trustoverip/spec-up) Template Repository allows ToIP contributors to create new repositories with the directory structure, branches, and files necessary to bootstrap the development of Specifications using a ToIP branded version of [Spec-up](https://github.com/decentralized-identity/spec-up).
 
-1. Visit [Spec-Up for ToIP](https://github.com/decentralized-identity/spec-up) Template Repository.
+1. Visit [Spec-Up for ToIP](https://github.com/trustoverip/spec-up)
+ Template Repository.
 2. Click on the `Use this template` button
 ![template-button](../_images/process/github-template-button.png)
 3. Fill out the repo creation form using the appropriate naming convention as depicted below:
@@ -140,7 +139,7 @@ One of the members of the contributing team needs to prepare and submit the init
 
 ## Repo generation configuration
 
-**TODO**
+Follow the [ToIP Spec-up Usage Instructions](https://github.com/trustoverip/spec-up#usage) for configuring the new repo. 
 
 ## Repo organization suggestions
 You can add supporting artifacts and organize your repo filesystem structure as desired. You MAY want to:
