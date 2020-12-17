@@ -46,6 +46,4 @@ The selection of the Markdown Language allows members freedom of choice when aut
 | Authoring Environment | Usage | View Demo(s) |
 | --- | --- | --- |
 | [ToIP MkDocs Material Theme](https://github.com/trustoverip/mkdocs-material) | General Documentation and Specification development | [ToIP MkDocs Theme for Documentation](https://trustoverip.github.io/deliverables/), [ToIP MkDocs Theme for Specs](https://squidfunk.github.io/toip-demo-spec/) |
-| [Spec-Up for ToIP](https://github.com/decentralized-identity/spec-up) | Specification development | _Work-in-progress_ |
-
-* <font color="red">Note: Pending the completion of [Spec-Up Issue 11](https://github.com/decentralized-identity/spec-up/issues/11), this option is unavailable for use.</font>
+| [Spec-Up for ToIP](https://github.com/trustoverip/spec-up) which is derived from [Spec-Up](https://github.com/decentralized-identity/spec-up) | Specification development | [ToIP Spec-up Repo](https://trustoverip.github.io/spec-up), [Baseline Spec-up Demo](https://identity.foundation/spec-up/)|
