@@ -53,4 +53,4 @@ The contributors associated with each ToIP Deliverable will decide which one of 
 | Authoring Environment | Usage | View Demo(s) |
 | --- | --- | --- |
 | [ToIP MkDocs Material Theme Contributors Guide](https://github.com/trustoverip/mkdocs-material/blob/main/DEV_README.md#contributors-guide) | General Documentation and Specification development | [ToIP MkDocs Theme for Documentation](https://trustoverip.github.io/deliverables/), [ToIP MkDocs Theme for Specs](https://squidfunk.github.io/toip-demo-spec/) |
-| [Spec-Up for ToIP](https://github.com/decentralized-identity/spec-up) | Specification development | _Work-in-progress_ |
+| [Spec-Up for ToIP](https://github.com/trustoverip/spec-up) which is derived from [Spec-Up](https://github.com/decentralized-identity/spec-up) | Specification development | [ToIP Spec-up Repo](https://trustoverip.github.io/spec-up), [Baseline Spec-up Demo](https://identity.foundation/spec-up/)|
