@@ -1,5 +1,5 @@
 # DP0003: Laws of Identity
-- Authors: [Darrell O'Donnell](darrell.odonnell@continuumloop.com), [Victor Syntez](victorsyntez@gmail.com)
+- Authors: [Darrell O'Donnell](darrell.odonnell@continuumloop.com), [Victor Syntez](victorsyntez@gmail.com), [Chris Buchanan](cjb@mitre.org)
 - Deliverable Type: *Recommendation - Design Principle*
 - Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
 - Since: 2020-10-21
@@ -10,15 +10,20 @@
 
 
 ## Summary
-The **Seven Laws of Identity** were [published by Kim Cameron, Architect of Identity at the Microsoft Corporation](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) in 2005. This document serves to recognize this work as a collection of design principles for identity solutions.  
+
+The **Seven Laws of Identity** were [published by Kim Cameron, Architect of Identity at the Microsoft Corporation](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) in 2005. This document serves to recognize this work as a collection of design principles for a unifying identity metasystem that provides an identity layer for the Internet.
 
 ## Motivation
 
-We see our task for creating this document as defining practical scope Laws of Identity applications in all layers of the TOIP Technological Stack. Since Laws of Identity are very general, we understand the need to create a matrix where each Law of Identity will be looked from the perspective of every Layer of the Technology stack. By highlighting range of each and every Law of Identity we strive to help members of governance and ecosystem TFs with creating frameworks, policies, etc.
+The _Laws of Identity_ as defined by Kim Cameron et.al. remains a foundational document in defining an identity system for the Internet.  _The Laws of Identity_ posit that, because the Internet itself is a metasystem comprised of competing protocols and interoperability standards without a centralized mechanism of control or enforcement, any identity system that intends to service the needs of the Internet must itself be a metasystem.  Any monolithic identity system will either lack the span-of-control or the proper context to properly service the users needs.  _The Laws of Identity_ provide the reasoning for a decentralized identity metasystem which in turn creates the need for a Trust over IP Foundation to provide one coherent and principled approach to defining the competing protocols and interoperability standards required to realize the universal metasystem for identity envisioned by Cameron.
 
-```Why are we doing this? What use cases does it support? What is the expected outcome?
-DELETE THIS COMMENT
-```
+## Approach
+
+Since Laws of Identity are indicative vice prescriptive, this document, by mapping each Law of Identity to each Layer of the Trust Over IP Technology stack, is intended to guide design decisions rather than prescribe them.  This is not to say they may be dismissed entirely, but that there is a necessary flexibility of application within the incredibly complex and diverse identity ecosystem. This mapping will inform the members of Trust Over IP Governance and Ecosystem Working Groups in their daily work of creating frameworks, policies, etc.  Additionally, there are portions of the decentralized identity ecosystem which were not anticipated in 2005 by the authors of _The Laws of Identity_ which are treated as caveats within this guide to reinforce their inclusion within the Trust Over IP process.
+
+## Outcome
+
+It is important for users and technologists to understand that the ideas and goals of the Trust over IP Foundation are not new ideas.  These concepts have a strong pedigree that goes back to the origins of the internet.  The Laws of Identity show that any universal identity system must necessarily be a metasystem and user centric, but User Centric Identity fell flat because it depended on governance structures and technologies that could not hope to achieve the levels of security and transparency required for the universal identity metasystem to be realized.  However, the advent of Distributed Ledger Technology (DLT) has finally made it possible for a universal identity metasystem to be established.  By acknowledging adherence to the line of thought by which we have arrived at the present moment, we sweep away the objections of immaturity and novel approaches and refocus on the important work of __*connecting people while also respecting their individuality of person, time, place, and context.*__
 
 ## Scope
 
