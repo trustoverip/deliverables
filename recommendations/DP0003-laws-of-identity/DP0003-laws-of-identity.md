@@ -21,20 +21,26 @@ The _Laws of Identity_ as defined by Kim Cameron et.al. remains a foundational d
 
 Since Laws of Identity are indicative vice prescriptive, this document, by mapping each Law of Identity to each Layer of the Trust Over IP Technology stack, is intended to guide design decisions rather than prescribe them.  This is not to say they may be dismissed entirely, but that there is a necessary flexibility of application within the incredibly complex and diverse identity ecosystem. This mapping will inform the members of Trust Over IP Governance and Ecosystem Working Groups in their daily work of creating frameworks, policies, etc.  Additionally, there are portions of the decentralized identity ecosystem which were not anticipated in 2005 by the authors of _The Laws of Identity_ which are treated as caveats within this guide to reinforce their inclusion within the Trust Over IP process.
 
+In the provided matrixes, the terms **MUST**, **SHOULD**, and **MAY** will indicate whether or not documented adherence procedures are required in accordance with IETF [RFC2119](https://www.rfc-editor.org/rfc/rfc2119).  Additionally, caveats will be noted for certain issues for which documented adherence is waived (such as subject consent in guardianship contexts) when it is otherwise required.
+
 ## Outcome
 
 It is important for users and technologists to understand that the ideas and goals of the Trust over IP Foundation are not new ideas.  These concepts have a strong pedigree that goes back to the origins of the internet.  The Laws of Identity show that any universal identity system must necessarily be a metasystem and user centric, but User Centric Identity fell flat because it depended on governance structures and technologies that could not hope to achieve the levels of security and transparency required for the universal identity metasystem to be realized.  However, the advent of Distributed Ledger Technology (DLT) has finally made it possible for a universal identity metasystem to be established.  By acknowledging adherence to the line of thought by which we have arrived at the present moment, we sweep away the objections of immaturity and novel approaches and refocus on the important work of __*connecting people while also respecting their individuality of person, time, place, and context.*__
 
 ## Scope
 
-This document serves to provide an opportunity to discuss how laws of identity **MUST** or **SHOULD**, or **MAY**  be applicable on every layer of TOIP Technology Stack.
-
-In many standards track documents words **MUST**, **SHOULD**, and **MAY** are used to signify the requirements in the specification.  This matrix use these words according to IETF [RFC2119](https://www.rfc-editor.org/rfc/rfc2119).
+The scope of this document is intended to be a reference for Trust over IP Foundation documents that establish frameworks or policy overlays to the Trust over IP Governance and Technical Stacks.
 
 ## Trust Over IP Stack Layers Descriptions
+
 The first two layers of the ToIP stack are designed to provide **technical trust** — the assurance that one machine can establish a secure, private connection with another machine. Layers Three and Four are where **human trust** is established and maintained.
 
-![](https://i.imgur.com/PnZb0EW.jpg)
+![](https://i.imgur.com/PnZb0EW.jpg) 
+
+```
+move image to github to ensure compatibility with corporate firewalls.
+DELETE THIS COMMENT
+```
 
 **TL4:** **Application Ecosystem**. Layer Four is the application layer—the layer where humans interact with applications in order to engage in trusted interactions that serve a specific business, legal, or social purpose.
 
@@ -57,67 +63,97 @@ What are the goals that makes this collection of principles unique?
 DELETE THIS COMMENT
 ```
 
+
 ## List of Principles
 ![ext-image](https://camo.githubusercontent.com/12ed1f186cab49f66f62bc804eadf082c18ce749/68747470733a2f2f7777772e6964656e74697479626c6f672e636f6d2f77702d636f6e74656e742f696d616765732f323030392f30362f375f4c6177735f6f665f4964656e746974792e6a7067)
 
 ### 1. User Control and Consent
 Digital identity systems must only reveal information identifying a user with the user's consent.
-| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** ||
-| :---: | :---: | :---: | :---: |:---:|
-||||| TL4 |
-||||| TL3 |
-||||| TL2 |
-||||| TL1 |
-### 2. Limited Disclosure for Limited Use
-The solution which discloses the least identifying information and best limits its use is the most stable, long-term solution.
-| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** ||
-| :---: | :---: | :---: | :---: |:---:|
-||||| TL4 |
-||||| TL3 |
-||||| TL2 |
-||||| TL1 |
-### 3. The Law of Fewest Parties
+
+|| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** |
+|:---:|:---:|:---:|:---:|:---:|
+|TL4|X*|||
+|TL3|X*|||
+|TL2||X*||
+|TL1||X*||
+
+\* The first caveat to the Laws of Identity is the application of user consent in cases of [dependent identity](./dependent-id.md).  If your solution includes the capability to enable proxy use of a digital identity, please see the linked document for further guidance.
+
+### 2. Minimal Disclosure for a Constrained Use
+The solution which discloses the least amount o identifying information and best limits its use is the most stable long-term solution.
+
+|| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** |
+|---|---|---|---|---|
+|TL4|X|||
+|TL3|X|||
+|TL2|X|||
+|TL1|X|||
+
+### 3. Justifiable Parties
 Digital identity systems must limit disclosure of identifying information to parties having a necessary and justifiable place in a given identity relationship.
-| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** ||
-| :---: | :---: | :---: | :---: |:---:|
-||||| TL4 |
-||||| TL3 |
-||||| TL2 |
-||||| TL1 |
+
+|| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** |
+|---|---|---|---|---|
+|TL4|X|||
+|TL3|X|||
+|TL2|X|||
+|TL1|X|||
+
 ### 4. Directed Identity
 A universal identity metasystem must support both "omnidirectional" identifiers for use by public entities and "unidirectional" identifiers for private entities, thus facilitating discovery while preventing unnecessary release of correlation handles.
-| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** ||
-| :---: | :---: | :---: | :---: |:---:|
-||||| TL4 |
-||||| TL3 |
-||||| TL2 |
-||||| TL1 |
+
+|| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** |
+|---|---|---|---|---|
+|TL4|X*|||
+|TL3|X*|||
+|TL2|X|||
+|TL1|X|||
+
+\* The second caveat is that no indivudual system must support both omnidirectional and directed identity.  However, no underlying technologies should prevent the existance of both types.
+
 ### 5. Pluralism of Operators and Technologies
 A universal identity metasystem must channel and enable the interworking of multiple identity technologies run by multiple identity providers.
-| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** ||
-| :---: | :---: | :---: | :---: |:---:|
-||||| TL4 |
-||||| TL3 |
-||||| TL2 |
-||||| TL1 |
+
+|| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** |
+|---|---|---|---|---|
+|TL4|||X|
+|TL3||X||
+|TL2|X|||
+|TL1|X|||
+
+The overall system must allow as many participants as possible.  However, individual credentials and applications do not need to interoperate with others.  Some credentials may be application specific as long as the user is aware that they are non-compliant.
+
 ### 6. Human Integration
 A unifying identity metasystem must define the human user as a component integrated through protected and unambiguous human-machine communications.
-| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** ||
-| :---: | :---: | :---: | :---: |:---:|
-||||| TL4 |
-||||| TL3 |
-||||| TL2 |
-||||| TL1 |
+
+|| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** |
+|---|---|---|---|---|
+|TL4|X||||
+|TL3|||X||
+|TL2|||X||
+|TL1||||X|
+
+Applications in this ecosystem must include users in identity decisions and recognize they right of the individual to change their preferences at any time.
+
+```
+We need to define acceptable ToIP Ceremonies.
+DELETE THIS COMMENT
+```
+
 ### 7. Consistent Experience Across Contexts
 A unifying identity metasystem must provide a simple consistent experience while enabling separation of contexts through multiple operators and technologies.
-| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** ||
-| :---: | :---: | :---: | :---: |:---:|
-||||| TL4 |
-||||| TL3 |
-||||| TL2 |
-||||| TL1 |
+
+|| **MUST** | **SHOULD** | **MAY** | **NOT Applicable** |
+|---|---|---|---|---|
+|TL4||X*||
+|TL3|X*|||
+|TL2|X*|||
+|TL1|X*|||
+
+\* While this law may appear to be focust on User eXperience (UX), it implies coherence among member systems to the extent that UX is impacted.  In other words, the user must have the ability to exercise seperation of contexts through multiple operators and technologies.  Therefore, any operator or technology must be interoperable to multiple layers above, below, or adjacent to it within the Trust over IP Stack.
 
 ## Synopsis
+
 Please refer to the [original article](http://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.html) by the author for a complete synopsis about each principle.
 
 ## Relevance
@@ -134,3 +170,4 @@ We also understand that by creating such a matrix we might shift focus from over
 Provide an assessment of the ramifications of including and/or excluding each principle in a solution.
 DELETE THIS COMMENT
 ```
+ 
