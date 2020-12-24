@@ -57,7 +57,6 @@ nav:
     - 'Code of Conduct': './process/code_of_conduct.md'
 - Activity Status:
     - 'Proposed': './results/proposed.md'
-    - 'Governance Stack Design Principles': './results/DP0007-governance-stack.md'
     - 'Approved': './results/approved.md'
     - 'Accepted': './results/accepted.md'
     - 'Standard Development Organizations': './results/sdo.md'

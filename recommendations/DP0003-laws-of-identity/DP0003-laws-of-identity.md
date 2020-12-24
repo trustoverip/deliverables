@@ -11,7 +11,6 @@
 
 ## Summary
 The **Seven Laws of Identity** were [published by Kim Cameron, Architect of Identity at the Microsoft Corporation](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) in 2005. This document serves to recognize this work as a collection of design principles for identity solutions.
-In our work we also referenced to [Presidio Principles](https://www.weforum.org/communities/presidio-principles) published by World Economic Forum.
 
 ## Motivation
 
