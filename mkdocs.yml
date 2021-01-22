@@ -55,6 +55,10 @@ nav:
     - 'State Management': './process/state_mgmt.md'
     - 'Search Optimization': './process/tags.md'
     - 'Code of Conduct': './process/code_of_conduct.md'
+- Plans:
+    - 'Roadmap': './results/2021_roadmap.md'
+    - 'Current Priorities': './results/2021Q1.md'
+    - 'Next Priorities': './results/2021Q2.md'
 - Activity Status:
     - 'Proposed': './results/proposed.md'
     - 'Approved': './results/approved.md'
