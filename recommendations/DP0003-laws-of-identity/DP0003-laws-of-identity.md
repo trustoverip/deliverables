@@ -16,10 +16,6 @@ The **Seven Laws of Identity** were [published by Kim Cameron, Architect of Iden
 
 We see our task for creating this document as defining practical scope Laws of Identity applications in all layers of the TOIP Technological Stack. Since Laws of Identity are very general, we understand the need to create a matrix where each Law of Identity will be looked from the perspective of every Layer of the Technology stack. By highlighting range of each and every Law of Identity we strive to help members of governance and ecosystem TFs with creating frameworks, policies, etc.
 
-```Why are we doing this? What use cases does it support? What is the expected outcome?
-DELETE THIS COMMENT
-```
-
 ## Scope
 
 This document serves to provide an opportunity to discuss how laws of identity **MUST** or **SHOULD**, or **MAY**  be applicable on every layer of TOIP Technology Stack.
