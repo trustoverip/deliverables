@@ -13,9 +13,14 @@
 
 [__The Laws of Identity__](https://www.identityblog.com/stories/2005/05/13/TheLawsOfIdentity.pdf) were published by Kim Cameron, Architect of Identity at the Microsoft Corporation, in 2005. This document serves to recognize this work as a foundational collection of design principles for a unifying identity metasystem (referred to henceforth as an ecosystem) that provides an identity layer for the Internet. The seven laws outline the properties with which any identity solution must be imbued to meet the hyperdynamic needs of the entire internet.  Cameron's seven laws predated the nascent technologies and standards with which we now seek to realize his prescient declaration.  While we regard these laws as incomplete (in that more laws must certainly exist regarding [dependent identity](./dependent-id.md)), they have no less efficacy in the context of an [independent identity](./independent-id.md).  Therefore, we stand "on the shoulders of giants" as we make the evolutionary leap to decentralized identity by applying __*The Laws of Identity*__ to our contemporary efforts to build the universal identity ecosystem described by Cameron et. al.
 
+```
+Not sure I like the transition to "ecosystem" here.  But we need to
+ween off the metasystem language to match ToIP terms. - Chris B
+```
+
 ## Motivation
 
-The __*The Laws of Identity*__ as defined by Kim Cameron et.al. remains a foundational document in defining an identity system for the Internet.  __*The Laws of Identity*__ posit that, because the Internet itself is a ecosystem comprised of competing protocols and interoperability standards without a centralized mechanism of control or enforcement, any identity system that intends to service the needs of the Internet must likewise be a ecosystem.  Any monolithic identity system will either lack the span-of-control or the proper context to properly service global needs.  We seek to provide guardrails for future technologies to support the universal vice the monolithic.
+The *The Laws of Identity* as defined by Kim Cameron et.al. remains a foundational document in defining an identity system for the Internet.  __*The Laws of Identity*__ posit that, because the Internet itself is a ecosystem comprised of competing protocols and interoperability standards without a centralized mechanism of control or enforcement, any identity system that intends to service the needs of the Internet must likewise be a ecosystem.  Any monolithic identity system will either lack the span-of-control or the proper context to properly service global needs.  We seek to provide guardrails for future technologies to support the universal vice the monolithic.
 
 Additionally, while __*The Laws of Identity*__ illuminate the path to a universal identity ecosystem, those of us who seek to realize this vision are immediately confronted with the global consequences of having ignored these laws for over a decade due to ignorance, arrogance, greed, or necessity. The status quo for digital identity, as Cameron warned, is experiencing "a wake of reinforcing side-effects that [will] eventually undermine all resulting technology."  By focusing on authentication, we have required the ever increasing accumulation of data which, because it is used for authentication, is imbued with value beyond its natural state.  This accumulated data attracts those who would exploit its value and, once the data is exploited, the only cure for the resulting vulnerability is to accumulate more data thus restarting the cycle. This accumulation to expoitation cycle _is_ the reinforcing side effect of authentication.  
 
@@ -43,7 +48,7 @@ The scope of this document is intended to be a reference for Trust over IP Found
 
 The first two layers of the ToIP stack are designed to provide **technical trust** — the assurance that one machine can establish a secure, private connection with another machine. Layers Three and Four are where **human trust** is established and maintained.
 
-![](https://i.imgur.com/PnZb0EW.jpg)
+![ext-image](https://github.com/trustoverip/SC/blob/master/presentations/stack-diagrams/images/Trust%20over%20IP%20Stack%20-%20Diagrams.010.png)
 
 ```
 move image to github to ensure compatibility with corporate firewalls.
