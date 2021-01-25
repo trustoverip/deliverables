@@ -1,9 +1,10 @@
-# Title (Ex. 0000: Deliverable Name)
+# DP0000: Principles of SSI
+
 - Authors: [your name](you@github-email) -- email is optional
 - Status: [PROPOSED](./process/lifecycle_management.md)
 - Since: YYYY-MM-DD (date you submit your PR)
-- Status Note: (explanation of current status)  
-- Supersedes: (link to anything this ToIP Deliverable  supersedes)
+- Status Note: Pre-Draft  
+- Supersedes: Not Applicable
 - Start Date: YYYY-MM-DD (date you started working on this idea)
 - Tags: (see ../../../tags.md)
 
