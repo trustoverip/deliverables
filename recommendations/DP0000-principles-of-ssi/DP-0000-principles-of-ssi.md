@@ -1,18 +1,20 @@
 # DP0000: Principles of SSI
 
-- Authors: [your name](you@github-email) -- email is optional
+- Authors: [Chris Raczkowski](chris@sovrin.org) | [Drummond Reed] (drummond.reed@everny.com) | [Sankarshan Mukhopadhyay] (sankarshan@dhiway.com)
 - Status: [PROPOSED](./process/lifecycle_management.md)
 - Since: YYYY-MM-DD (date you submit your PR)
 - Status Note: Pre-Draft  
 - Supersedes: Not Applicable
-- Start Date: YYYY-MM-DD (date you started working on this idea)
+- Start Date: 2020-12-09 
 - Tags: (see ../../../tags.md)
 
 >NOTE: This guide is subject to refinement and approval from the Concepts and Terminology WG as they will define the format of glossarys. It is also expected that Glossaries may have an online rendering format.
 
 ## Summary
 
-The Principles of SSI are a set of foundational principles created at the Sovrin Foundation through a consultative process with the SSI community. These principles are versioned and published [here](https://sovrin.org/principles-of-ssi/) under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+The **Principles of SSI** are a set of foundational principles created at the Sovrin Foundation through a consultative process with the SSI community. 
+
+These principles are versioned and published [here](https://sovrin.org/principles-of-ssi/) under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
 
 ## Motivation
 
@@ -20,15 +22,11 @@ The [Principles of SSI Task Force](https://wiki.trustoverip.org/display/HOME/Pri
 
 ## Scope
 
-```
-Briefly describe the scope of this document – how it presents the architecture of this particular enabler.  Include an explanation of how this architecture relates to Organization Name activity.  If it adds clarity, also describe what is not in the scope of this architecture.  DELETE THIS COMMENT
-```
+This document contains the **Principles of SSI** in a format that is recommended by the Trust over IP Foundation as a design principle. 
 
 ## Design Goals
-```
-What are the goals that makes this collection of principles unique?
-DELETE THIS COMMENT
-```
+
+These foundational principles of SSI are intended for use by any digital identity ecosystem. Any organization is welcomed to incorporate these principles into its digital identity ecosystem governance framework provided they are included in their entirety. The principles of SSI shall be limited only by official laws and regulations that apply in a relevant jurisdiction.
 
 ## List of Principles
 
@@ -48,10 +46,59 @@ Provide a detailed explanation about each principle.
 DELETE THIS COMMENT
 ```
 
-### 1. xxxxx
+### 1. Representation
 
-### 2. xxxxx
+An SSI ecosystem shall provide the means for any entity—human, legal, natural, physical or digital—to be represented by any number of digital identities.    
+    
+### 2. Interoperability
 
+An SSI ecosystem shall enable digital identity data for an entity to be represented, exchanged, secured, protected, and verified interoperably using open, public, and royalty-free standards.
+
+### 3. Decentralization
+
+An SSI ecosystem shall not require reliance on a centralized system to represent, control, or verify an entity’s digital identity data.
+
+### 4. Control & Agency
+
+An SSI ecosystem shall empower entities who have natural, human, or legal rights in relation to their identity (“Identity Rights Holders”) to control usage of their digital identity data and exert this control by employing and/or delegating to agents and guardians of their choice, including individuals, organizations, devices, and software.
+
+### 5. Participation
+
+An SSI ecosystem shall not require an identity rights holder to participate.
+
+### 6. Equity and Inclusion
+
+An SSI ecosystem shall not exclude or discriminate against identity rights holders within its governance scope.
+
+### 7. Usability, Accessibility, and Consistency
+
+An SSI ecosystem shall maximize usability and accessibility of agents and other SSI components for identity rights holders, including consistency of user experience.
+
+### 8. Portability
+
+An SSI ecosystem shall not restrict the ability of identity rights holders to move or transfer a copy of their digital identity data to the agents or systems of their choice.
+
+### 9. Security
+
+An SSI ecosystem shall empower identity rights holders to secure their digital identity data at rest and in motion, to control their own identifiers and encryption keys, and to employ end-to-end encryption for all interactions.
+
+### 10. Verifiability and Authenticity
+
+An SSI ecosystem shall empower identity rights holders to provide verifiable proof of the authenticity of their digital identity data.
+
+### 11. Privacy and Minimal Disclosure
+
+An SSI ecosystem shall empower identity rights holders to protect the privacy of their digital identity data and to share the minimum digital identity data required for any particular interaction.
+
+### 12. Transparency
+
+An SSI ecosystem shall empower identity rights holders and all other stakeholders to easily access and verify information necessary to understand the incentives, rules, policies, and algorithms under which agents and other components of SSI ecosystems operate.
+
+```
+*This document is maintained by the [​Sovrin Foundation](https://sovrin.org/)​ and has been approved by the Sovrin Board of Trustees for inclusion in the Sovrin Utility Governance Framework and the Sovrin Ecosystem Governance Framework.*
+
+© 2020 by Sovrin Foundation.
+```
 
 ## Relevance
 
