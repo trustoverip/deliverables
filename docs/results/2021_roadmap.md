@@ -1,7 +1,5 @@
 ## 2021 Roadmap
 
->Note: This plan is under construction. It is not yet booked as the plan -of-record (POR).
-
 The following deliverables and their dependencies frame the workload for 2021.
 
 ### Q1 Plan
@@ -9,21 +7,26 @@ The following deliverables and their dependencies frame the workload for 2021.
 | Deliverable | Target Milestone | Dependencies |
 | --- | --- | --- |
 | TSS0001: Governance Stack | 2021-Q1 | None |
+| TSS0002: Technology Stack | 2022-Q1 | Key Technology Specs |
+| DP0005: Governance Stack | 2021-Q1| Foundational Design Principles|
+| DP0006: Technology Stack | 2021-Q1| Foundational Design Principles|
 | WP0010: ToIP Foundation Whitepaper (v2) | 2021-Q1 | None |
-| WP0020: ToIP Digital Trust Marketplace FAQ | 2021-Q1 | None |
+
+### Q1 Stretch Goals
+| Deliverable | Target Milestone | Dependencies |
+| --- | --- | --- |
+| WP0020: ToIP Digital Trust Marketplace FAQ | 2021-Q2 | None |
 
 ### Q2 Plan
 | Deliverable | Target Milestone | Dependencies |
 | --- | --- | --- |
-| TSS0002: Technology Stack | 2022-Q2 | Key Technology Specs |
-| DP0005: Governance Stack | 2021-Q2 | Foundational Design Principles|
-| DP0006: Technology Stack | 2021-Q2 | Foundational Design Principles|
+| WP0020: ToIP Digital Trust Marketplace FAQ | 2021-Q2 | None |
 | TIP0028: Saturn V (Draft) | 2021-Q2 | Foundational Design Principles, Early Best Practice Research |
 
 ### Dependencies
 
 #### Foundational Design Principles
-The following deliverables are scheduled for 2021-Q1 availability.
+The following deliverables are scheduled for 2021-Q2 availability.
 
 1. DP0003: Laws of Identity
 0. DP0004: Privacy by Design
