@@ -28,23 +28,10 @@ This document contains the **Principles of SSI** in a format that is recommended
 
 These foundational principles of SSI are intended for use by any digital identity ecosystem. Any organization is welcomed to incorporate these principles into its digital identity ecosystem governance framework provided they are included in their entirety. The principles of SSI shall be limited only by official laws and regulations that apply in a relevant jurisdiction.
 
-## List of Principles
 
-```
-Enumerated table of principles with short description.
-DELETE THIS COMMENT
-```
+## The Principles of SSI
 
-| Principle | Description |
-| --- | --- |
-| 1. xxxx | xxxxxxxx |
-
-## Synopsis
-
-```
-Provide a detailed explanation about each principle.
-DELETE THIS COMMENT
-```
+Listed below are a set of 12 foundational principles of SSI. These are accompanied by explanatory text to aid in easier understanding of the applicability of the principles in any digital identity ecosystem
 
 ### 1. Representation
 
@@ -95,20 +82,8 @@ An SSI ecosystem shall empower identity rights holders to protect the privacy of
 An SSI ecosystem shall empower identity rights holders and all other stakeholders to easily access and verify information necessary to understand the incentives, rules, policies, and algorithms under which agents and other components of SSI ecosystems operate.
 
 ```
-*This document is maintained by the [​Sovrin Foundation](https://sovrin.org/)​ and has been approved by the Sovrin Board of Trustees for inclusion in the Sovrin Utility Governance Framework and the Sovrin Ecosystem Governance Framework.*
+This document is maintained by the [​Sovrin Foundation](https://sovrin.org/)​ and has been approved by the Sovrin Board of Trustees for inclusion in the Sovrin Utility Governance Framework and the Sovrin Ecosystem Governance Framework.
 
 © 2020 by Sovrin Foundation.
 ```
 
-## Relevance
-
-```
-Explain the positioning of each principle against the overarching goals of this proposal.  How / where would they be used (example Use cases or industry sectors).
-DELETE THIS COMMENT
-```
-
-## Trade-offs
-```
-Provide an assessment of the ramifications of including and/or excluding each principle in a solution.
-DELETE THIS COMMENT
-```
