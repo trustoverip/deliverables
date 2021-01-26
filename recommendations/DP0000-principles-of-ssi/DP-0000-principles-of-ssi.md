@@ -1,6 +1,6 @@
 # DP0000: Principles of SSI
 
-- Authors: [Chris Raczkowski](chris@sovrin.org)| [Drummond Reed](drummond.reed@evernym.com) | [Sankarshan Mukhopadhyay](sankarshan@dhiway.com)
+- Authors: [Chris Raczkowski](chris@sovrin.org) | [Drummond Reed](drummond.reed@evernym.com) | [Sankarshan Mukhopadhyay](sankarshan@dhiway.com)
 - Status: [PROPOSED](./process/lifecycle_management.md)
 - Since: YYYY-MM-DD (date you submit your PR)
 - Status Note: Pre-Draft  
