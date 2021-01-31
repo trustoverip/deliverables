@@ -1,4 +1,4 @@
-# DP0000: Principles of SSI
+# DP0031: Principles of SSI
 
 - Authors: [Chris Raczkowski](chris@sovrin.org) | [Drummond Reed](drummond.reed@evernym.com) | [Sankarshan Mukhopadhyay](sankarshan@dhiway.com)
 - Status: [PROPOSED](./process/lifecycle_management.md)
@@ -6,7 +6,7 @@
 - Status Note: Pre-Draft  
 - Supersedes: Not Applicable
 - Start Date: 2020-12-09 
-- Tags: (see ../../../tags.md)
+- Tags: #guide, #gswg
 
 >NOTE: This guide is subject to refinement and approval from the Concepts and Terminology WG as they will define the format of glossarys. It is also expected that Glossaries may have an online rendering format.
 
