@@ -2,7 +2,7 @@
 
 - Authors: [Chris Raczkowski](chris@sovrin.org) | [Drummond Reed](drummond.reed@evernym.com) | [Sankarshan Mukhopadhyay](sankarshan@dhiway.com)
 - Status: [PROPOSED](./process/lifecycle_management.md)
-- Since: YYYY-MM-DD (date you submit your PR)
+- Since: 2021-02-02
 - Status Note: Pre-Draft  
 - Supersedes: Not Applicable
 - Start Date: 2020-12-09 
@@ -18,7 +18,7 @@ These principles are versioned and published [here](https://sovrin.org/principle
 
 ## Motivation
 
-The [Principles of SSI Task Force](https://wiki.trustoverip.org/display/HOME/Principles+of+SSI+Task+Force) at the [Trust over IP Foundation](https://trustoverip.org/) intends to deliver these as Design Principles for formal reference by Trust over IP based governance frameworks at Trust over IP Interoperability Profiles (TIPs) that choose to incorporate these principles.
+The [Principles of SSI Task Force](https://wiki.trustoverip.org/display/HOME/Principles+of+SSI+Task+Force) at the [Trust over IP Foundation](https://trustoverip.org/) intends to deliver these as Design Principles for formal reference by Trust over IP based governance frameworks or Trust over IP Interoperability Profiles (TIPs) that choose to incorporate these principles.
 
 ## Scope
 
