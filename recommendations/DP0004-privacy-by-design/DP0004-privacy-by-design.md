@@ -1,5 +1,5 @@
 # ToIP DP0004: Privacy by Design
-- Authors: [Jim St.Clair](jum.stclair@lumedic.io)
+- Authors: [Jim St.Clair](jum.stclair@lumedic.io), [Steve McCown](smccown@anonyome.com)
 - Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
 - Since: 2020-11-29
 - Status Note: Draft
@@ -8,11 +8,7 @@
 - Tags: (see ../../../tags.md)
 
 ## Summary
-
-```
-One paragraph explanation of the objective of this document.
-DELETE THIS COMMENT
-```
+Privacy by Design (PbD) is a systems design approach that offers a set of principles for incorporating privacy-protecting requirements in the system design phase rather than leaving them to the end of development processes [1].  The European Union's General Data Protection Regulation (GDPR) specifies Privacy By Design as a Key Issue [2] and the Privacy by Design concepts (data protection by design) have been codified in Article 25 of the GDPR [3].  [Dr. Cavoukian](https://www.ryerson.ca/tedrogersschool/trlc/our-people/fellows/dr--ann-cavoukian/), who created Privacy By Design, is the Executive Director of Ryerson University's Privacy and Big Data Institute, which has partnered with Deloitte to create a Privacy By Design Certification process[4], although such is not required by the GDPR.
 
 ## Motivation
 "Privacy" has been subject to almost constant interpretation and societal pressures. As stated by the founder of PdB, Dr. Ann Couvikian, stated, "The importance of privacy cannot be overstated." Privacy as concept is further complicated constantly evolving and emerging technology. Privacy can and must co-exist alongside other critical requirements: security, functionality, operational efficiency, organizational control, business processes, and usability. PbD aims to inculcate privacy as part of every consideration of system design.  
@@ -69,3 +65,9 @@ DELETE THIS COMMENT
 While there is no question of the importance of embedding privacy into systems design, there may be trade-offs to consider in compliance with these principles:
 1. Regulation - certain regulatory environments (such as finance and healthcare) may require identification or accountability of information that may limit incorporation of the PbD design principles.
 2. System limitation - Despite best efforts to incorporate these principles, there may be limitations in the system design, such as software, platform, design cost, portability, or accessibility that impact the PdB system design.
+
+## References
+1. Cavoukian, Ann, Ph.D., Information & Privacy Commissioner, Ontario, Canada, "Privacy by Design: The 7 Foundational Principles Implementation and Mapping of Fair Information Practices", https://iapp.org/media/pdf/resource_center/pbd_implement_7found_principles.pdf
+2. General Data Protection Regulation (GDPR), Key Issues, Privacy By Design, https://gdpr-info.eu/issues/privacy-by-design/
+3. General Data Protection Regulation, Article 25, https://gdpr-info.eu/art-25-gdpr/
+4. Deloitte, Ryerson University, Privacy By Design Certification, https://www2.deloitte.com/content/dam/Deloitte/ca/Documents/risk/ca-en-ers-privacy-by-design-brochure.PDF
