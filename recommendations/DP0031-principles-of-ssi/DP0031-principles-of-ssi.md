@@ -6,7 +6,7 @@
 - Status Note: Pre-Draft  
 - Supersedes: Not Applicable
 - Start Date: 2020-12-09 
-- Tags: #guide, #gswg
+- Tags: #guide, #gswg, #tswg
 
 >NOTE: This guide is subject to refinement and approval from the Concepts and Terminology WG as they will define the format of glossarys. It is also expected that Glossaries may have an online rendering format.
 
