@@ -66,6 +66,14 @@ While there is no question of the importance of embedding privacy into systems d
 1. Regulation - certain regulatory environments (such as finance and healthcare) may require identification or accountability of information that may limit incorporation of the PbD design principles.
 2. System limitation - Despite best efforts to incorporate these principles, there may be limitations in the system design, such as software, platform, design cost, portability, or accessibility that impact the PdB system design.
 
+### Implementation Resources
+Privacy by design is an invaluable systems engineering approach that presents the value of including privacy considerations at each step of the entire engineering process.  In order to assist architects, designers, and developers with taking Privacy By Design from concept to practical implementation, the following articles are provided:
+- Best Practices for the Implementation of the Privacy by Design Concept in Smart Devices, https://resources.infosecinstitute.com/certification/best-practices-for-the-implementation-of-the-privacy-by-design-concept-in-smart-devices/
+- Privacy Impact Assessment, https://resources.infosecinstitute.com/topic/privacy-impact-assessment/
+- Top 10 Questions to Ask Developers About Customer Data Security, https://resources.infosecinstitute.com/topic/top-10-questions-ask-developers-customer-data-security/
+- Ultimate guide to international data protection and privacy laws, https://resources.infosecinstitute.com/topic/ultimate-guide-to-international-data-protection-and-privacy-laws/
+- Free GDPR Quiz: Are You in Compliance?, https://resources.infosecinstitute.com/topic/free-gdpr-quiz-are-you-in-compliance/ 
+
 ## References
 1. Cavoukian, Ann, Ph.D., Information & Privacy Commissioner, Ontario, Canada, "Privacy by Design: The 7 Foundational Principles Implementation and Mapping of Fair Information Practices", https://iapp.org/media/pdf/resource_center/pbd_implement_7found_principles.pdf
 2. General Data Protection Regulation (GDPR), Key Issues, Privacy By Design, https://gdpr-info.eu/issues/privacy-by-design/
