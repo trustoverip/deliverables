@@ -14,7 +14,7 @@
 
 The **Principles of SSI** are a set of foundational principles created at the Sovrin Foundation through a consultative process with the SSI community. 
 
-These principles are versioned and published [here](https://sovrin.org/principles-of-ssi/) under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+These principles are versioned and published [here](https://sovrin.org/principles-of-ssi/) under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Motivation
 
