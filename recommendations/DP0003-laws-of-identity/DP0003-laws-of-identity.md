@@ -117,14 +117,12 @@ It is important for users and technologists to understand that the ideas
 and goals of the Trust over IP Foundation are not new ideas. These
 concepts have a strong pedigree that goes back to the origins of the
 internet. The Laws of Identity show that any universal identity system
-must necessarily be an ecosystem and user centric. However, [***User
-Centric
-Identity***](https://itlaw.wikia.org/wiki/National_Strategy_for_Trusted_Identities_in_Cyberspace:_Creating_Options_for_Enhanced_Online_Security_and_Privacy)
-fell flat, even after its incorporation into the United States National
-Strategy, because it depended on governance structures and technologies
+must necessarily be an ecosystem and user centric. However, ***User
+Centric Identity*** fell flat, even after its incorporation into the [United States National
+Strategy](https://itlaw.wikia.org/wiki/National_Strategy_for_Trusted_Identities_in_Cyberspace:_Creating_Options_for_Enhanced_Online_Security_and_Privacy), because it depended on governance structures and technologies
 that could not hope to achieve the levels of transparency required for
-the universal identity ecosystem to be realized. In 2014, The OpenID
-Dynamic Discovery system, based on DNS and SSL, provided one approach
+the universal identity ecosystem to be realized. In 2014, The [OpenID
+Dynamic Discovery](https://openid.net/specs/openid-connect-discovery-1_0.html) system, based on DNS and SSL, provided one approach
 which is still in widespread use. Since then, several Distributed Ledger
 Technology (DLT) solutions have matured to production levels and further
 enhance the technical trust necessary to underpin the universal identity
