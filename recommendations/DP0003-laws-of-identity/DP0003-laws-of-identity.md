@@ -17,7 +17,7 @@
 
 -   Start Date: 2020-10-21
 
--   Tags: (see ../../../tags.md)
+-   Tags: #tswg, #gswg, #recommendation
 
 ## Summary
 
@@ -184,8 +184,7 @@ compliance levels at each layer of the technology stack.
 
 ## List of Principles
 
-![ext-image](media/image1.jpg){width="6.34044728783902in"
-height="4.098646106736658in"}
+![laws-of-identity](./images/laws-of-identity.png)
 
 *ext-image*
 
