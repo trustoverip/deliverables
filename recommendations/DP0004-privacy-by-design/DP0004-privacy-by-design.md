@@ -56,10 +56,11 @@ Above all, Privacy by Design requires architects and operators to keep the inter
 
 ## Relevance
 
-```
-Explain the positioning of each principle against the overarching goals of this proposal.  How / where would they be used (example Use cases or industry sectors).
-DELETE THIS COMMENT
-```
+In her paper, "Privacy by Design: The 7 Foundational Principles Implementation and Mapping of Fair Information Practices" [1], Dr. Ann Cavoukian describes how vital it is to include privacy at the beginning of the design process:
+
+"While we would like to enjoy the benefits of innovation ... we must also preserve our freedom of choice and personal control over our data flows. ... There is a growing understanding that innovation, creativity and competitiveness must be approached from a “design-thinking” perspective − namely, a way of viewing the world and overcoming constraints that is at once holistic, interdisciplinary, integrative, innovative, and inspiring. ... Privacy, too, must be approached from the same design-thinking perspective. Privacy must be incorporated into networked data systems and technologies, by default. Privacy must become integral to organizational priorities, project objectives, design processes, and planning operations. Privacy must be embedded into every standard, protocol and process that touches our lives."
+
+For most information processing systems, it is a trivial process to collect, store, analyze, and redistribute personal information.  Additionally, once personal data has been redistributed, it is impossible to recover.  The impacts on personal privacy and the emerging laws that regulate it make it imperative that systems designers continuously evaluate the privacy implications at the earliest development phase.  The principles presented in Privacy By Design should also be the guide for evaluating impacts to personal privacy throughout the software development lifecycle.
 
 ## Trade-offs
 While there is no question of the importance of embedding privacy into systems design, there may be trade-offs to consider in compliance with these principles:
